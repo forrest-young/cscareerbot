@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>software engineer</pattern>
+	    <template>Software engineering is broadly defined as the design, development, and maintenance of software.  Field interests:
+	    <ul>
+	        <li>Systems Design</li>
+	        <li>Algorithms</li>
+	        <li>Data Structures</li>
+	        <li>Software Development Lifecycle</li>
+        </ul>
+        For more information visit <link><text>wikipedia</text><url>https://en.wikipedia.org/wiki/Software_engineering</url></link>
+        <button>
+            <text>Back</text>
+            <postback>careers</postback>
+        </button>
+	    </template>
+	</category>
+</aiml>

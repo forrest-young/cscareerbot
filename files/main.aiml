@@ -37,6 +37,10 @@
                 <text>Network Administrator</text>
                 <postback>network admin</postback>
             </button>
+            <button>
+                <text>Back</text>
+                <postback>main</postback>
+            </button>
         </template>
     </category>
 </aiml>
