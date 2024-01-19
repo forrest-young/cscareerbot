@@ -2,7 +2,7 @@
 <aiml version="2.0">
 	<category>
         <pattern>main</pattern>
-        <template>Hello, this is the computer science career bot!  To continue, please select from the following menu: 
+        <template>Welcome!  For career information select career fields, for general advice select guidance: 
             <button>
                 <text>Career Fields</text>
                 <postback>careers</postback>
