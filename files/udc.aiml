@@ -3,15 +3,11 @@
   
 <category>
     <pattern>*</pattern>
-    <template>Hello, this is the computer science career bot!  To continue, please select from the following menu: 
+    <template>Hello, this is the computer science career bot!  Click to proceed: 
             <button>
-                <text>Career Fields</text>
-                <postback>careers</postback>
+                <text>Begin</text>
+                <postback>main</postback>
             </button>
-            <button>
-                <text>Guidance</text>
-                <postback>guidance</postback>
-            </button>    
         </template>
 </category>
 
