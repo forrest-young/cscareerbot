@@ -3,7 +3,16 @@
   
 <category>
     <pattern>*</pattern>
-    <reply><postback>main</postback></reply>
+    <template>Hello, this is the computer science career bot!  To continue, please select from the following menu: 
+            <button>
+                <text>Career Fields</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Guidance</text>
+                <postback>guidance</postback>
+            </button>    
+        </template>
 </category>
 
 </aiml>
