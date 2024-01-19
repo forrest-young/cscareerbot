@@ -3,8 +3,7 @@
   
 <category>
     <pattern>*</pattern>
-    <template>hello</template>
-    <postback>main</postback>
+    <reply><postback>main</postback></reply>
 </category>
 
 </aiml>
