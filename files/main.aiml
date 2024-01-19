@@ -18,24 +18,24 @@
         <pattern>careers</pattern>
         <template>Here's a short list of computer science careers.  You may click for more information.
             <button>
-                <text>Software Developer</text>
-                <postback>software developer</postback>
+                <text>Software Engineer</text>
+                <postback>software engineer</postback>
             </button>
             <button>
-                <text>Cybersecurity Analyst</text>
-                <postback>cybersecurity analyst</postback>
-            </button>
-            <button>
-                <text>UX Designer</text>
-                <postback>ux designer</postback>
-            </button>
-            <button>
-                <text>Database Administrator</text>
-                <postback>database administrator</postback>
+                <text>Data Analyst</text>
+                <postback>data analyst</postback>
             </button>
             <button>
                 <text>Web Developer</text>
-                <postback>web developer</postback>
+                <postback>web dev</postback>
+            </button>
+            <button>
+                <text>AI Researcher</text>
+                <postback>ai</postback>
+            </button>
+            <button>
+                <text>Network Administrator</text>
+                <postback>network admin</postback>
             </button>
         </template>
     </category>
