@@ -3,6 +3,7 @@
   
 <category>
     <pattern>*</pattern>
+    <template>hello</template>
     <postback>main</postback>
 </category>
 
