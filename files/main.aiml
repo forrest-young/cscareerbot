@@ -1,4 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
+	<category>
+        <pattern>main</pattern>
+        <template>Hello, this is the computer science career bot!  To continue, please select from the following menu: 
+            <button>
+                <text>Career Fields</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>Guidance</text>
+                <postback>guidance</postback>
+            </button>    
+        </template>
+    </category>
+   
+   <category>
+        <pattern>careers</pattern>
+        <template>Here's a short list of computer science careers.  You may click for more information.
+            <button>
+                <text>Software Developer</text>
+                <postback>software developer</postback>
+            </button>
+            <button>
+                <text>Cybersecurity Analyst</text>
+                <postback>cybersecurity analyst</postback>
+            </button>
+            <button>
+                <text>UX Designer</text>
+                <postback>ux designer</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>database administrator</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>web developer</postback>
+            </button>
+        </template>
+    </category>
 </aiml>
