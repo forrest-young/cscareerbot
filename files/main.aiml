@@ -21,7 +21,7 @@
                 <postback>guidance</postback>
             </button>
             <button>
-                <text>Contact Us</text>
+                <text>Contact or Schedule an Appointment</text>
                 <postback>contact</postback>
             </button>
         </template>
