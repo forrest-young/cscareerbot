@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+    <category>
+        <pattern>*</pattern>
+        <template>Hello, this is the computer science career bot!  Click to proceed: 
+            <button>
+                <text>Begin</text>
+                <postback>main</postback>
+            </button>
+        </template>
+    </category>
 	<category>
         <pattern>main</pattern>
-        <template>Welcome!  For career information select career fields, for general advice select guidance: 
+        <template>Welcome!  For career information select career fields, for general advice select guidance:
             <button>
                 <text>Career Fields</text>
                 <postback>careers</postback>
@@ -10,33 +19,21 @@
             <button>
                 <text>Guidance</text>
                 <postback>guidance</postback>
-            </button>    
+            </button>
+            <button>
+                <text>Contact Us</text>
+                <postback>contact</postback>
+            </button>
         </template>
     </category>
-   
-   <category>
-        <pattern>careers</pattern>
-        <template>Here's a short list of computer science careers.  You may click for more information.
-            <button>
-                <text>Software Engineer</text>
-                <postback>software engineer</postback>
-            </button>
-            <button>
-                <text>Data Analyst</text>
-                <postback>data analyst</postback>
-            </button>
-            <button>
-                <text>Web Developer</text>
-                <postback>web dev</postback>
-            </button>
-            <button>
-                <text>AI Researcher</text>
-                <postback>ai</postback>
-            </button>
-            <button>
-                <text>Network Administrator</text>
-                <postback>network admin</postback>
-            </button>
+    <category>
+        <pattern>contact</pattern>
+        <template>
+            For other inquiries you may contact us via phone or email at:
+            <br></br> 123-456-7890
+            <br></br> cscareerbot@uni.edu
+            <br></br><br></br> To schedule an appointment with an advisor, click below:
+            <link><text>Schedule appointment</text><url>https://www.scheduleappointment.uni.edu</url></link>
             <button>
                 <text>Back</text>
                 <postback>main</postback>

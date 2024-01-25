@@ -1,19 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
+    <category>
+        <pattern>careers</pattern>
+        <template>
+            Here's a short list of computer science careers.  You may click for more information.
+            <button>
+                <text>Software Engineer</text>
+                <postback>software engineer</postback>
+            </button>
+            <button>
+                <text>Data Analyst</text>
+                <postback>data analyst</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>web dev</postback>
+            </button>
+            <button>
+                <text>AI Researcher</text>
+                <postback>ai</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>db admin</postback>
+            </button>
+            <button>
+                <text>Back</text>
+                <postback>main</postback>
+            </button>
+        </template>
+    </category>
 	<category>
 	    <pattern>software engineer</pattern>
-	    <template>Software engineering is broadly defined as the design, development, and maintenance of software.  Field interests:
-	    <ul>
-	        <li>Systems Design</li>
-	        <li>Algorithms</li>
-	        <li>Data Structures</li>
-	        <li>Software Development Lifecycle</li>
-        </ul>
-        For more information visit <link><text>wikipedia</text><url>https://en.wikipedia.org/wiki/Software_engineering</url></link>
-        <button>
-            <text>Back</text>
-            <postback>careers</postback>
-        </button>
+	    <template>
+	        Software engineering is broadly defined as the design, development, and maintenance of software.  Field interests:
+	        <ul>
+	            <li>Systems Design</li>
+	            <li>Algorithms</li>
+	            <li>Data Structures</li>
+	            <li>Software Development Lifecycle</li>
+            </ul>
+            For more information visit <link><text>wikipedia</text><url>https://en.wikipedia.org/wiki/Software_engineering</url></link>
+            <button>
+                <text>Back</text>
+                <postback>careers</postback>
+            </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>data analyst</pattern>
+	    <template>
+	        Data analysts acquire, organize, and review data.  Many business decisions are influenced by this analysis.  Field interests:
+	        <ul>
+	            <li>Statistics</li>
+	            <li>Analytical Thinking</li>
+	            <li>Big Data</li>
+	        </ul>
+            For more information visit <link><text>wikipedia</text><url>https://en.wikipedia.org/wiki/Data_analysis</url></link>
+            <button>
+                <text>Back</text>
+                <postback>careers</postback>
+            </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>web dev</pattern>
+	    <template>
+	        Web developers create and maintain websites and applications.  Field interests:
+	        <ul>
+	            <li>Client-Server Scripting</li>
+	            <li>HTML</li>
+	            <li>CSS</li>
+	        </ul>
+            For more information visit <link><text>wikipedia</text><url>https://en.wikipedia.org/wiki/Web_developer</url></link>
+            <button>
+                <text>Back</text>
+                <postback>careers</postback>
+            </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>ai</pattern>
+	    <template>
+	        Artificial intelligence researchers develop and train advanced systems capable of solving complex problems.  Field interests:
+	        <ul>
+	            <li>Neural Networks</li>
+	            <li>Machine Learning</li>
+	            <li>Language Processing</li>
+	        </ul>
+	        For more information visit <link><text>wikipedia</text><url>https://en.wikipedia.org/wiki/Artificial_intelligence</url></link>
+            <button>
+                <text>Back</text>
+                <postback>careers</postback>
+            </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>db admin</pattern>
+	    <template>
+	        Database administrators configure and maintain databases.  Is often concerned with design, security, migration, performance, and recovery.  Field interests:
+	        <ul>
+	            <li>SQL</li>
+	            <li>RDBMS</li>
+	        </ul>
+	        For more information visit <link><text>wikipedia</text><url>https://en.wikipedia.org/wiki/Database_administrator</url></link>
+            <button>
+                <text>Back</text>
+                <postback>careers</postback>
+            </button>
 	    </template>
 	</category>
 </aiml>

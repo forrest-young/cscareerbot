@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>guidance</pattern>
+	    <template>
+	        Please answer the following questions.  Your answers will be used to assess potential career choices.  If you aren't satisfied with the advice, or you are not interested in any of the options given then you can schedule an appointment with an advisor.
+	        <br></br><br></br>Given the following options, which would you prefer?
+	        <button>
+	            <text>Programming</text>
+	            <postback>g1</postback>
+	        </button>
+	        <button>
+	            <text>Scripting</text>
+	            <postback>g2</postback>
+	        </button>
+	        <button>
+	            <text>Back</text>
+	            <postback>main</postback>
+	        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>g1</pattern>
+	    <template>
+	        Would you rather focus on products and services or theoretical research?
+	        <button>
+	            <text>Products and Services</text>
+	            <postback>g3</postback>
+	        </button>
+	        <button>
+	            <text>Theoretical Research</text>
+	            <postback>g4</postback>
+	        </button>
+	        <button>
+	            <text>Back</text>
+	            <postback>guidance</postback>
+	        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>g2</pattern>
+	    <template>
+	        Do you enjoy designing and being creative?
+	        <button>
+	            <text>Yes</text>
+	            <postback>g5</postback>
+	        </button>
+	        <button>
+	            <text>No</text>
+	            <postback>g6</postback>
+	        </button>
+	        <button>
+	            <text>Back</text>
+	            <postback>g1</postback>
+	        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>g3</pattern>
+	    <template>
+	        Given your responses, a career as a <b>Software Engineer</b> is recommended.  For more information, please click below:
+	        <button>
+	            <text>More info</text>
+	            <postback>software engineer</postback>
+	        </button>
+	        <button>
+	            <text>Back to guidance</text>
+	            <postback>guidance</postback>
+	        </button>
+	        <button>
+	            <text>Main menu</text>
+	            <postback>main</postback>
+	        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>g4</pattern>
+	    <template>
+	        Given your responses, a career as an <b>AI Researcher</b> is recommended.  For more information, please click below:
+	        <button>
+	            <text>More info</text>
+	            <postback>ai</postback>
+	        </button>
+	        <button>
+	            <text>Back to guidance</text>
+	            <postback>guidance</postback>
+	        </button>
+	        <button>
+	            <text>Main menu</text>
+	            <postback>main</postback>
+	        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>g5</pattern>
+	    <template>
+	        Given your responses, a career as a <b>Web Developer</b> is recommended.  For more information, please click below:
+	        <button>
+	            <text>More info</text>
+	            <postback>web dev</postback>
+	        </button>
+	        <button>
+	            <text>Back to guidance</text>
+	            <postback>guidance</postback>
+	        </button>
+	        <button>
+	            <text>Main menu</text>
+	            <postback>main</postback>
+	        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>g6</pattern>
+	    <template>
+	        Would you rather create and maintain databases or work directly with data, focusing on interpretation and analysis?
+	        <button>
+	            <text>Create and maintain</text>
+	            <postback>g7</postback>
+	        </button>
+	        <button>
+	            <text>Interpretion and analysis</text>
+	            <postback>g8</postback>
+	        </button>
+	        <button>
+	            <text>Back</text>
+	            <postback>g2</postback>
+	        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>g7</pattern>
+	    <template>
+	        Given your responses, a career as a <b>Database Administrator</b> is recommended.  For more information, please click below:
+	        <button>
+	            <text>More info</text>
+	            <postback>db admin</postback>
+	        </button>
+	        <button>
+	            <text>Back to guidance</text>
+	            <postback>guidance</postback>
+	        </button>
+	        <button>
+	            <text>Main menu</text>
+	            <postback>main</postback>
+	        </button>
+	    </template>
+	</category>
+	<category>
+	    <pattern>g8</pattern>
+	    <template>
+	        Given your responses, a career as a <b>Data Analyst</b> is recommended.  For more information, please click below:
+	        <button>
+	            <text>More info</text>
+	            <postback>data analyst</postback>
+	        </button>
+	        <button>
+	            <text>Back to guidance</text>
+	            <postback>guidance</postback>
+	        </button>
+	        <button>
+	            <text>Main menu</text>
+	            <postback>main</postback>
+	        </button>
+	    </template>
+	</category>
+</aiml>
